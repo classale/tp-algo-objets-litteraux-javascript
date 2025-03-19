@@ -1,5 +1,5 @@
 function trouverPersonne(personnes, nom) {
-	return personnes.filter(e => e.nom == nom)[0]
+	return personnes.filter(e => e.nom == nom)[0] == undefined ? {} : personnes.filter(e => e.nom == nom)[0];
 }
 
 // Tests

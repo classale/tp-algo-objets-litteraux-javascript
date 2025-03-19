@@ -1,5 +1,5 @@
 function ajouterAdresse(personne, adresse) {
-	personne["adrese"] = adresse
+	personne["adresse"] = adresse
 }
 
 // Tests
